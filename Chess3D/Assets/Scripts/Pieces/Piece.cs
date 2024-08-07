@@ -5,20 +5,20 @@ using UnityEngine;
 public abstract class Piece : MonoBehaviour
 {
     public abstract void CalculatePossibleMoves();
-    public abstract void CheckForFriendlyPieces();
-    public abstract void CheckForEnemyPieces();
+    //public abstract void CheckForFriendlyPieces();
+    //public abstract void CheckForEnemyPieces();
 
-    protected bool isSelected = false;
+    //protected bool isSelected = false;
 
-    public virtual void Select()
-    {
-        isSelected = true;
-        CalculatePossibleMoves();
-    }
+    //public virtual void Select()
+    //{
+    //    isSelected = true;
+    //    CalculatePossibleMoves();
+    //}
 
-    public virtual void Deselect()
-    {
-        isSelected = false;
-        ChessBoard.Instance.ClearHighlights();
-    }
+    //public virtual void Deselect()
+    //{
+    //    isSelected = false;
+    //    ChessBoard.Instance.ClearHighlights();
+    //}
 }

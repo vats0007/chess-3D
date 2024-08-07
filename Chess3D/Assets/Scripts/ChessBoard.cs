@@ -20,7 +20,7 @@ public sealed class ChessBoard : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(Testing());
+        //StartCoroutine(Testing());
     }
 
     private void GenerateArray()
@@ -92,24 +92,37 @@ public sealed class ChessBoard : MonoBehaviour
         }
     }
 
-
-
-    private IEnumerator Testing()
+    internal Vector3 GetVector3FromCords(int i,int j,int k)
     {
-        Highlight(2, 7, 1);
-        yield return new WaitForSeconds(3f);
-
-        ClearHighlights();
-        Highlight(2, 7, 2);
-        Highlight(2, 7, 3);
-        Highlight(2, 5, 4);
-        Highlight(2, 7, 7);
-        yield return new WaitForSeconds(3f);
-
-        ClearHighlights();
-        Highlight(7, 7, 0);
-        Highlight(2, 7, 0);
-        yield return new WaitForSeconds(3f);
+        return new Vector3(i, j, k);
     }
+
+    //Not Needed
+    internal void GetCordsFromVector3(Vector3 vector, out int i, out int j, out int k)
+    {
+        i = (int)vector.x;
+        j = (int)vector.y;
+        k = (int)vector.z;
+    }
+
+
+
+    //private IEnumerator Testing()
+    //{
+    //    Highlight(2, 7, 1);
+    //    yield return new WaitForSeconds(3f);
+
+    //    ClearHighlights();
+    //    Highlight(2, 7, 2);
+    //    Highlight(2, 7, 3);
+    //    Highlight(2, 5, 4);
+    //    Highlight(2, 7, 7);
+    //    yield return new WaitForSeconds(3f);
+
+    //    ClearHighlights();
+    //    Highlight(7, 7, 0);
+    //    Highlight(2, 7, 0);
+    //    yield return new WaitForSeconds(3f);
+    //}
 
 }
