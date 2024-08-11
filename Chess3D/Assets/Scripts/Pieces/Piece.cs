@@ -5,7 +5,7 @@ using UnityEngine;
 public abstract class Piece : MonoBehaviour
 {
     public abstract void CalculatePossibleMoves();
-    //public abstract void CheckForFriendlyPieces();
+    public abstract void CheckForFriendlyPieces();
     //public abstract void CheckForEnemyPieces();
 
     //protected bool isSelected = false;

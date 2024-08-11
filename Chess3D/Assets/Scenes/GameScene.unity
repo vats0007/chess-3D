@@ -591,7 +591,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 275585355}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21f0d288568c946168cbefbc2c1f3f87, type: 3}
   m_Name: 
@@ -1397,6 +1397,7 @@ GameObject:
   - component: {fileID: 1074238562}
   - component: {fileID: 1074238561}
   - component: {fileID: 1074238560}
+  - component: {fileID: 1074238564}
   m_Layer: 0
   m_Name: RRook
   m_TagString: Untagged
@@ -1503,9 +1504,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59df3405e71e64c73bb3035f413c0fc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
-  j: 0
+  i: 3
+  j: 3
   k: 6
+--- !u!114 &1074238564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074238558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a6137d6076e74e6faeba30d565cfa42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1135590536
 GameObject:
   m_ObjectHideFlags: 0
@@ -1748,9 +1761,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59df3405e71e64c73bb3035f413c0fc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 3
-  j: 3
-  k: 3
+  i: 0
+  j: 0
+  k: 0
 --- !u!114 &1140138402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1898,6 +1911,7 @@ GameObject:
   - component: {fileID: 1551117766}
   - component: {fileID: 1551117765}
   - component: {fileID: 1551117764}
+  - component: {fileID: 1551117768}
   m_Layer: 0
   m_Name: Queen
   m_TagString: Untagged
@@ -2005,8 +2019,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   i: 0
-  j: 0
-  k: 1
+  j: 1
+  k: 2
+--- !u!114 &1551117768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551117762}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a45139f9227b4c0a8bbdb6741d5cea4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1612434411
 GameObject:
   m_ObjectHideFlags: 0
@@ -2020,6 +2046,7 @@ GameObject:
   - component: {fileID: 1612434415}
   - component: {fileID: 1612434414}
   - component: {fileID: 1612434413}
+  - component: {fileID: 1612434417}
   m_Layer: 0
   m_Name: LKnight
   m_TagString: Untagged
@@ -2129,6 +2156,18 @@ MonoBehaviour:
   i: 0
   j: 0
   k: 5
+--- !u!114 &1612434417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612434411}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8a62005b6f2e409f8d7a53f612ee3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1706827851
 GameObject:
   m_ObjectHideFlags: 0
@@ -2303,6 +2342,7 @@ GameObject:
   - component: {fileID: 1741530814}
   - component: {fileID: 1741530813}
   - component: {fileID: 1741530812}
+  - component: {fileID: 1741530816}
   m_Layer: 0
   m_Name: RBishop
   m_TagString: Untagged
@@ -2409,9 +2449,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59df3405e71e64c73bb3035f413c0fc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
-  j: 0
+  i: 3
+  j: 3
   k: 2
+--- !u!114 &1741530816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741530810}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77cd6e9ee67ba40b68a06b899eb38986, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

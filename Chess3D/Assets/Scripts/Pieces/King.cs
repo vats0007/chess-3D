@@ -39,10 +39,10 @@ public class King : Piece
     //    throw new System.NotImplementedException();
     //}
 
-    //public override void CheckForFriendlyPieces()
-    //{
-    //    throw new System.NotImplementedException();
-    //}
+    public override void CheckForFriendlyPieces()
+    {
+        
+    }
 
 
     // Update is called once per frame

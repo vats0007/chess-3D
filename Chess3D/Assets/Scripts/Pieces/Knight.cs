@@ -39,7 +39,7 @@ public class Knight : Piece
             int newJ = _b + knightMoveAdder[i, 1];
             int newK = _c + knightMoveAdder[i, 2];
 
-            //if (newI < 0 || newI >= 8 || newJ < 0 || newJ >= 8 || newK < 0 || newK >= 8) continue;
+            if (newI < 0 || newI >= 8 || newJ < 0 || newJ >= 8 || newK < 0 || newK >= 8) continue;
             ChessBoard.Instance.Highlight(newI, newJ, newK);
             count++;
         }
